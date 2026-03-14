@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f7ff;
+  color: #333;
+}
+
+h1 {
+  color: #0066cc;
+  margin: 0 0 20px 0;
+  font-size: 28px;
+  border-bottom: 2px solid #cce0ff;
+  padding-bottom: 10px;
+}
+
+.loading,
+.error,
+.noResults {
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #e0f0ff;
+  border-radius: 6px;
+  color: #0066cc;
+}
+
+.error {
+  color: #cc0000;
+  border-color: #ffcccc;
+  background-color: #fff0f0;
+}
+
+.modalContent h3 {
+  margin: 0 0 16px 0;
+  color: #0066cc;
+  font-size: 20px;
+  padding-right: 32px;
+}
+
+.modalContent p {
+  margin: 12px 0;
+  color: #333;
+  line-height: 1.5;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.modalContent p span {
+  font-weight: 600;
+  color: #0066cc;
+  min-width: 90px;
+  background-color: #f0f7ff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.modalContent p:last-of-type {
+  margin-bottom: 0;
+}
